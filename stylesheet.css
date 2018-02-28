@@ -1,0 +1,47 @@
+html{
+
+}
+
+body {
+
+   position:relative;
+   top:50px;
+
+}
+
+#content {
+   position:relative;
+}
+
+.heading{
+   position:relative;
+   text-align: center;
+}
+
+#image1{
+   position: relative;
+   text-align: center;
+}
+
+.interesting {
+   position:relative;
+   text-align: center;
+   padding-left:200px;
+   padding-right:150px;
+   padding-bottom:50px;
+}
+
+#image2 {
+   position:relative;
+   float:left;
+}
+
+#image3{
+   position:relative;
+   float:right;
+}
+
+#interesting2 {
+   position:relative;
+   float:none;
+}
