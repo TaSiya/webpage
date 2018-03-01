@@ -6,42 +6,47 @@ body {
 
    position:relative;
    top:50px;
+   padding: 0px;
+   margin:2px;
 
 }
 
+p{
+   font-size: 15px;
+}
+
+h1{
+   position:relative;
+   text-align: center;
+}
 #content {
    position:relative;
+   border: solid 1px;
+   background-image: url(images/back.jpg);
 }
 
-.heading{
+.box{
    position:relative;
-   text-align: center;
+   margin-left:100px;
+   width:1000px;
+   height:400px;
 }
 
-#image1{
-   position: relative;
-   text-align: center;
-}
-
-.interesting {
+#pic1{
    position:relative;
-   text-align: center;
-   padding-left:200px;
-   padding-right:150px;
-   padding-bottom:50px;
+   float: right;
+   padding-top: 40px;
 }
 
-#image2 {
+#pic2{
    position:relative;
-   float:left;
+   float
+   padding-top: 40px;
 }
 
-#image3{
+.bio{
    position:relative;
+   text-align:left;
    float:right;
-}
-
-#interesting2 {
-   position:relative;
-   float:none;
+   padding-top:30px;
 }
