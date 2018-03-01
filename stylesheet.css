@@ -1,14 +1,14 @@
-html{
-
+html, body{
+   width:100%;
 }
 
 body {
 
    position:relative;
    top:50px;
-   padding: 0px;
-   margin:2px;
 
+   background-image: url(images/backedit.jpg);
+   background-size: cover;
 }
 
 p{
@@ -18,35 +18,25 @@ p{
 h1{
    position:relative;
    text-align: center;
+   color:cyan;
 }
 #content {
    position:relative;
    border: solid 1px;
-   background-image: url(images/back.jpg);
 }
 
 .box{
    position:relative;
-   margin-left:100px;
-   width:1000px;
-   height:400px;
+   margin-left:50px;
 }
 
 #pic1{
    position:relative;
-   float: right;
-   padding-top: 40px;
-}
-
-#pic2{
-   position:relative;
-   float
+   float:right;
    padding-top: 40px;
 }
 
 .bio{
    position:relative;
-   text-align:left;
-   float:right;
    padding-top:30px;
 }
