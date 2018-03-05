@@ -1,42 +1,160 @@
+*{
+
+      margin:0%;
+      padding:0%;
+}
+
 html, body{
    width:100%;
+
+   margin:auto;
 }
 
 body {
 
-   position:relative;
-   top:50px;
 
    background-image: url(images/backedit.jpg);
-   background-size: cover;
+   background-size:contain;
+
+   font-family: Arial, serif;
+   line-height: 1.8em;
+   font-weight: normal;
 }
 
-p{
-   font-size: 15px;
+img{
+   border-radius: 30%;
 }
 
-h1{
-   position:relative;
+h1 {
    text-align: center;
-   color:cyan;
+   padding-bottom: 40px;
+   font-style: italic;
 }
+
+h3{
+   color:#33333;
+}
+
 #content {
-   position:relative;
-   border: solid 1px;
+   width: 100%;
+   max-width:90%;
+   margin: auto;
 }
 
-.box{
-   position:relative;
-   margin-left:50px;
+.content-section {
+   width: inherit;
+   padding: 2em 1em;
 }
 
-#pic1{
-   position:relative;
-   float:right;
-   padding-top: 40px;
+#profile {
+   width: inherit;
 }
 
-.bio{
-   position:relative;
-   padding-top:30px;
+
+#profile:after {
+   content:"";
+   display:table;
+   clear:both;
+}
+
+#profile img{
+   float: right;
+   width: 40%;
+   border: 2px #ddd solid;
+   margin-left:10em;
+}
+
+#city{
+   width: inherit;
+}
+
+#city:after {
+   content:"";
+   display:table;
+   clear:both;
+}
+
+#city img{
+   width:40%;
+   border: 2px #ddd solid;
+   margin-right:5em;
+   margin-right:5em;
+}
+
+#language{
+   width: inherit;
+}
+
+table{
+   border:solid 2px cyan;
+   width:40%;
+}
+
+th, tr{
+   border:dotted 2px yellow;
+   text-align:center;
+
+   padding:5%;
+}
+
+#language: after{
+   content:"";
+   display:table;
+   clear:both;
+}
+
+#historical{
+   width:inherit;
+}
+
+.places{
+   width:inherit;
+   line-height: 2em;
+}
+
+.places img{
+   width:28%;
+   float: left;
+   margin-right:2em;
+   border:dotted 2px #ddd;
+   margin-bottom:5em;
+
+}
+
+#district{
+   width:inherit;
+   margin:auto;
+}
+
+
+#district:after{
+   content:"";
+   display:table;
+   clear:both;
+}
+
+#Castle{
+   width:inherit;
+   margin:auto;
+}
+
+#Castle:after{
+   content:"";
+   display:table;
+   clear:both;
+}
+
+hr{
+   width: inherit;
+   border:none;
+   height:1em;
+   background-color: #ddda;
+}
+
+.footer{
+   background-color: #000a ;
+   width:inherit;
+   line-height: 1.5em;
+   text-align:center;
+   padding-bottom:1em;
 }
