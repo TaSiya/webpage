@@ -22,13 +22,17 @@ body {
 }
 
 img{
-   border-radius: 30%;
+   border-radius: 10%;
 }
 
 h1 {
    text-align: center;
    padding-bottom: 40px;
    font-style: italic;
+}
+
+h1:hover{
+   color: #f4f4f4;
 }
 
 h3{
@@ -59,7 +63,7 @@ h3{
 
 #profile img{
    float: right;
-   width: 40%;
+   width: 20%;
    border: 2px #ddd solid;
    margin-left:10em;
 }
@@ -75,10 +79,10 @@ h3{
 }
 
 #city img{
-   width:40%;
+   width:30%;
    border: 2px #ddd solid;
-   margin-right:5em;
-   margin-right:5em;
+   margin-right:10em;
+   align-items: center;
 }
 
 #language{
@@ -88,6 +92,14 @@ h3{
 table{
    border:solid 2px cyan;
    width:40%;
+}
+
+th:hover{
+   background-color: #eee;
+}
+
+tr:hover{
+   color:red;
 }
 
 th, tr{
