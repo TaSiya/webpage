@@ -145,6 +145,7 @@ th, tr{
    clear:both;
 }
 
+
 #Castle{
    width:inherit;
    margin:auto;
@@ -155,6 +156,19 @@ th, tr{
    display:table;
    clear:both;
 }
+
+#hall{
+   width:inherit;
+   margin:auto;
+}
+
+#hall:after{
+   content:"";
+   display:table;
+   clear:both;
+}
+
+
 
 hr{
    width: inherit;
